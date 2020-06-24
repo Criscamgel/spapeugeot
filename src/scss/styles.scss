@@ -65,7 +65,7 @@
     opacity: 0;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
-    background-color: $color-negro;
+    background-color: $color-mercadolibre;
     z-index: 0;
     height: 100%;
     position: absolute;
@@ -451,14 +451,13 @@ button{
 }
 
 .encMercadolibre{
-    background-color: $color-negro;
+    background-color: $color-mercadolibre;
     display: grid;
     grid-template-columns: auto auto auto;
     position: fixed !important;
     width: 100%;
     z-index: 2;
     top: 0;
-    border-bottom: 3px solid $color-mercadolibre;
     @include tablet(){
         grid-template-columns: 8% auto 48%;
     }
@@ -499,7 +498,7 @@ button{
         align-self: center;
         justify-self: left;
         padding: 5% 5%;
-        width: 70%;
+        width: 50%;
 
         @include tablet(){
             padding: 5% 5%;
