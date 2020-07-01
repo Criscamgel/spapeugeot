@@ -31,9 +31,9 @@ export const environment = {
   patternMail: "^(([^<>()\[\]\\.,;:\s@]+(\.[^<>()\[\]\\.,;:\s@]+)*)|(.+))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$",
 
   /* Urls */
-  urlAp: "https://api.premiercredit.co:11445/PremierServices_API_EXT_TST/api/login/authenticate",
+  urlAp: "https://apitst.premiercredit.co:11445/PremierServices_api_ext_tst/api/login/authenticate",
   /* urlAp: "https://api.premiercredit.co:11444/PremierServices_API_EXT/api/login/authenticate", */
-  urlVp: "https://api.premiercredit.co:11445/PremierServices_API_EXT_TST/api/viabilizacion/getviabilizacion",
+  urlVp: "https://apitst.premiercredit.co:11445/premierservices_api_ext_tst/api/viabilizacion/getViabilizacion",
   /* urlVp: "https://api.premiercredit.co:11444/PremierServices_API_EXT/api/viabilizacion/getviabilizacion", */
 
   /* Credentials */
