@@ -562,13 +562,13 @@ button{
     display: grid;
     grid-template-columns: 7% auto 7%;
     @include tablet(){
-        grid-template-columns: 8% auto 48%;
+        grid-template-columns: 48% auto 8%;
     }
     @include deskopt(){
-        grid-template-columns: 8% auto 48%;
+        grid-template-columns: 48% auto 8%;
     }
     @include bigScreen(){
-        grid-template-columns: 8% auto 48%;
+        grid-template-columns: 48% auto 8%;
     }
 }
 
@@ -675,9 +675,8 @@ button{
       /* style for the checked/selected state */
       border-radius: 5px;
       box-shadow: 0px 1px 7px 0px $color-btn-disabled;
-      background-color: white;
-      border: 2px solid #000 !important;
-      font-weight: 800;
+      background-color: #007EDC;
+      color: $color-white !important;
     }
   }
   
@@ -709,7 +708,6 @@ button{
       .mes {
         grid-row: 1;
         font-size: 13px;
-        color: $color-negro;
         align-self: center;
         text-align: center;
       }
