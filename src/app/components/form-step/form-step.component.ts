@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { CentralesService } from '../../services/centrales.service';
 import { constantes } from '../../../app/constantes';
 import { registerLocaleData } from '@angular/common';
 import es from '@angular/common/locales/es';
+import { Component, ViewChild } from '@angular/core';
 
 
 @Component({
@@ -11,11 +11,13 @@ import es from '@angular/common/locales/es';
   templateUrl: './form-step.component.html',
   styleUrls: ['./form-step.component.scss']
 })
-export class FormStepComponent{
+
+export class FormStepComponent {
 
   const = constantes;
 
-  constructor(private centrales: CentralesService) { }
+  constructor(private centrales: CentralesService) {
+   }
 
   ngOnInit() {
     registerLocaleData( es );
