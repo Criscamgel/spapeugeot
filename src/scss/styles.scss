@@ -811,7 +811,10 @@ button{
 .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background {
     background-color: $numeroStep !important;
 }
-
+/* Cambiar el color del step completo */
+.mat-step-icon-state-edit.mat-step-icon {
+    background-color: $numeroStep !important;
+}
 
   
 
